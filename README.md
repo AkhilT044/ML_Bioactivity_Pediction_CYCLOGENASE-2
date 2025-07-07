@@ -47,7 +47,7 @@ The project follows a structured pipeline from data collection to model deployme
   - Real-time descriptor calculation and bioactivity prediction.
   - Visualization of molecular structures and prediction confidence scores.
 
-![web app-]()
+![web app-](https://github.com/AkhilT044/ML_Bioactivity_Pediction_CYCLOGENASE-2/blob/main/WebApp.png)
 
 
 ## Results and Validation
