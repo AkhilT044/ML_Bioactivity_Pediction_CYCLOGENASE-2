@@ -1,5 +1,3 @@
-#  ML_Bioactivity_Pediction(COX-2)
-
 # Bioactivity Prediction of Chemical Compounds Against Cyclooxygenase-2 (COX-2) Using Machine Learning
 
 ## Overview
@@ -77,8 +75,8 @@ The project follows a structured pipeline from data collection to model deployme
 ## How to Use
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/Bioactivity-Prediction-COX2.git
-   cd Bioactivity-Prediction-COX2
+   git clone https://github.com/AkhilT044/ML_Bioactivity_Pediction_CYCLOGENASE-2.git
+   cd ML_Bioactivity_Pediction_CYCLOGENASE-2
    ```
 
 2. **Set Up the Environment**:
