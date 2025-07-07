@@ -1,4 +1,4 @@
-# Bioactivity Prediction of Chemical Compounds Against Cyclooxygenase-2(COX-2) Using Machine Learning
+# Bioactivity Prediction of Chemical Compounds Against Cyclooxygenase-2(COX-2) Using Machine Learning with python
 
 ## Overview
 This project focuses on predicting the bioactivity of chemical compounds against Cyclooxygenase-2 (COX-2), an enzyme implicated in inflammation and various diseases. The goal is to develop a machine learning model that can accurately classify compounds as active or inactive COX-2 inhibitors, streamlining the early stages of drug discovery. The project leverages cheminformatics tools, Python-based machine learning, and a user-friendly web interface for predictions.
