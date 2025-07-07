@@ -5,7 +5,7 @@
 ## Overview
 This project focuses on predicting the bioactivity of chemical compounds against Cyclooxygenase-2 (COX-2), an enzyme implicated in inflammation and various diseases. The goal is to develop a machine learning model that can accurately classify compounds as active or inactive COX-2 inhibitors, streamlining the early stages of drug discovery. The project leverages cheminformatics tools, Python-based machine learning, and a user-friendly web interface for predictions.
 
----
+
 
 ## Problem Statement
 Traditional drug discovery methods for COX-2 inhibitors are time-consuming, costly, and often yield compounds with undesirable side effects. This project addresses these challenges by:
@@ -13,7 +13,7 @@ Traditional drug discovery methods for COX-2 inhibitors are time-consuming, cost
 - Providing a user-friendly tool for researchers without extensive coding experience.
 - Identifying potential COX-2 inhibitors with fewer side effects using machine learning.
 
----
+
 
 ## Methodology
 The project follows a structured pipeline from data collection to model deployment:
@@ -49,14 +49,14 @@ The project follows a structured pipeline from data collection to model deployme
   - Real-time descriptor calculation and bioactivity prediction.
   - Visualization of molecular structures and prediction confidence scores.
 
----
+
 
 ## Results and Validation
 - The trained XGBoost model achieved high accuracy in classifying COX-2 inhibitors.
 - Validation was performed using known natural COX-2 inhibitors (e.g., Senkyunolide I, Cryptotanshinone, Roburic acid), and the model correctly predicted their activity.
 - Key insights from feature importance analysis highlighted molecular descriptors critical for COX-2 inhibition.
 
----
+
 
 ## Key Features
 - **Data-Driven Approach**: Utilized experimentally validated bioactivity data from ChEMBL.
@@ -64,7 +64,7 @@ The project follows a structured pipeline from data collection to model deployme
 - **User-Friendly Interface**: The Streamlit app enables researchers to make predictions without coding expertise.
 - **Scalability**: The methodology can be adapted for other drug targets.
 
----
+
 
 ## Future Work
 - **Expand Descriptors**: Incorporate 3D molecular descriptors and docking scores for enhanced accuracy.
@@ -72,31 +72,7 @@ The project follows a structured pipeline from data collection to model deployme
 - **Experimental Validation**: Collaborate with labs to test top predicted compounds in vitro.
 - **Multi-Target Predictions**: Extend the model to predict activity against multiple biological targets.
 
----
 
-## Repository Structure
-```
-Bioactivity-Prediction-COX2/
-├── data/                    # Raw and preprocessed datasets
-│   ├── raw/                 # Original ChEMBL data
-│   └── processed/           # Cleaned and descriptor-augmented data
-├── notebooks/               # Jupyter notebooks for data processing and model training
-│   ├── data_preprocessing.ipynb
-│   ├── descriptor_calculation.ipynb
-│   └── model_training.ipynb
-├── models/                  # Saved models and scalers
-│   ├── xgboost_model.joblib
-│   └── scaler.joblib
-├── app/                     # Streamlit web application
-│   ├── app.py               # Main application script
-│   └── requirements.txt     # Dependencies
-├── docs/                    # Project documentation
-│   ├── presentation.pptx    # Project slides
-│   └── report.docx          # Detailed report
-└── README.md                # Project overview and instructions
-```
-
----
 
 ## How to Use
 1. **Clone the Repository**:
@@ -107,26 +83,14 @@ Bioactivity-Prediction-COX2/
 
 2. **Set Up the Environment**:
    ```bash
-   pip install -r app/requirements.txt
+   pip install -r requirements.txt
    ```
 
 3. **Run the Streamlit App**:
    ```bash
-   streamlit run app/app.py
+   streamlit run app.py
    ```
 
 4. **Input SMILES Strings**: Use the web interface to input SMILES strings of compounds and view predictions.
 
----
 
-## References
-1. Simon, L.S. (1999). Role and regulation of cyclooxygenase-2 during inflammation. *The American Journal of Medicine*.
-2. Davies, M., et al. (2015). ChEMBL web services: Streamlining access to drug discovery data. *Nucleic Acids Research*.
-3. Chen, T., & Guestrin, C. (2016). XGBoost: A scalable tree boosting system. *Proceedings of the 22nd ACM SIGKDD International Conference*.
-
----
-
-## Acknowledgments
-- Dr. Mahesh Kumar Sah for supervision and guidance.
-- ChEMBL database for providing high-quality bioactivity data.
-- Open-source tools like RDKit, XGBoost, and Streamlit for enabling this work.
