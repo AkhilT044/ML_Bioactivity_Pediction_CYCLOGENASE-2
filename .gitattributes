@@ -1,7 +1,1 @@
-# Keep your main analysis files as Jupyter Notebooks (Default)
-*.ipynb linguist-language=Jupyter Notebook
-
-# Force specific heavy notebooks to count as Python
-# (This shifts their byte weight to the blue "Python" bar)
-experiments/*.ipynb linguist-language=Python
-models/training_run.ipynb linguist-language=Python
+*.ipynb linguist-language=Jupyter-Notebook
